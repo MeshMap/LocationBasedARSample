@@ -3587,7 +3587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 497505288}
   m_Layer: 0
-  m_Name: Content0
+  m_Name: ContentAtFlagsPlaque
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8394,7 +8394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1562491763}
   m_Layer: 0
-  m_Name: Content1
+  m_Name: ContentBehindFlags
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
