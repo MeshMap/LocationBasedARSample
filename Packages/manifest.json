@@ -13,7 +13,7 @@
     "com.meshmap.sdk.bb": "file:mmsdk-buildingblocks-upm.tgz",
     "com.meshmap.sdk.core": "file:mmsdk-upm.tgz",
     "com.meshmap.sdk.magicleap2": "file:mmsdk-magicleap2-upm.tgz",
-    "com.meshmap.sdk.xr": "file:/Users/mcrit/Documents/GitHub/mmsdk-samples-xr/Packages/mmsdk-xr-upm",
+    "com.meshmap.sdk.xr": "file:mmsdk-xr-upm.tgz",
     "com.unity.ai.navigation": "2.0.7",
     "com.unity.collab-proxy": "2.8.2",
     "com.unity.ide.rider": "3.0.36",
