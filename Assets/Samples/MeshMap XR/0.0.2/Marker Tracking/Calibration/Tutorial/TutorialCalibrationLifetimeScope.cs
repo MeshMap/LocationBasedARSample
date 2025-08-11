@@ -1,8 +1,7 @@
-#if (MAGICLEAP) && !(METAQUEST) && !(XREAL)
 using VContainer;
 using VContainer.Unity;
 
-namespace MeshMap.MagicLeap2.Samples.MarkerTracking
+namespace MeshMap.XR.MarkerTracking.Samples
 {
     public class TutorialCalibrationLifetimeScope : LifetimeScope
     {
@@ -13,4 +12,3 @@ namespace MeshMap.MagicLeap2.Samples.MarkerTracking
         }
     }
 }
-#endif

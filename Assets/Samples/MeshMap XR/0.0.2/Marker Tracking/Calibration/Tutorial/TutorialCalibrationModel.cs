@@ -1,8 +1,7 @@
-#if (MAGICLEAP) && !(METAQUEST) && !(XREAL)
 using System;
 using UnityEngine;
 
-namespace MeshMap.MagicLeap2.Samples.MarkerTracking
+namespace MeshMap.XR.MarkerTracking.Samples
 {
     public class TutorialCalibrationModel : MonoBehaviour
     {
@@ -193,4 +192,3 @@ namespace MeshMap.MagicLeap2.Samples.MarkerTracking
         }
     }
 }
-#endif
