@@ -20,8 +20,10 @@ MonoBehaviour:
     rid: 2462990960468426814
   m_OverrideGlobalSceneList: 1
   m_Scenes:
-  - m_enabled: 1
+  - m_enabled: 0
     m_path: Assets/_LocationBasedARSample/Scenes/LocationBasedAR_ML2.unity
+  - m_enabled: 1
+    m_path: Assets/_LocationBasedARSample/Scenes/LocationBasedAR.unity
   m_ScriptingDefines:
   - MAGICLEAP
   - USE_ML_OPENXR

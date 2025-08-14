@@ -40,6 +40,15 @@ android {
         noCompress = **BUILTIN_NOCOMPRESS** + unityStreamingAssets.tokenize(', ')
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
     }**PACKAGING**
+
+    // MeshMap XR: resolve duplicate STL from multiple AARs
+    packaging {
+        jniLibs {
+            pickFirsts += ['**/libc++_shared.so','lib/**/libc++_shared.so']
+            // Resolve duplicate OpenXR loader coming from multiple AARs (e.g., OVRPlugin and OpenXR loader)
+            pickFirsts += ['**/libopenxr_loader.so','lib/**/libopenxr_loader.so']
+        }
+    }
 }
 **IL_CPP_BUILD_SETUP**
 **SOURCE_BUILD_SETUP**

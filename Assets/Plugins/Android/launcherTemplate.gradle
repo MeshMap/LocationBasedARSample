@@ -51,6 +51,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt')**SIGNCONFIG**
         }
     }**PACKAGING****PLAY_ASSET_PACKS****SPLITS**
+
+    // MeshMap XR: resolve duplicate STL from multiple AARs
+    packaging {
+        jniLibs {
+            pickFirsts += ['**/libc++_shared.so','lib/**/libc++_shared.so']
+            // Resolve duplicate OpenXR loader coming from multiple AARs (e.g., OVRPlugin and OpenXR loader)
+            pickFirsts += ['**/libopenxr_loader.so','lib/**/libopenxr_loader.so']
+        }
+    }
 **BUILT_APK_LOCATION**
     bundle {
         language {
