@@ -117,6 +117,7 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
+  - {fileID: -89957751243443173}
   - {fileID: 4532980382893870841}
   - {fileID: 1214012730434493514}
   - {fileID: -498412537079747835}
@@ -125,21 +126,26 @@ MonoBehaviour:
   - {fileID: 6228667555957854898}
   - {fileID: -4752579832189790195}
   - {fileID: 4341649486219674065}
-  - {fileID: -545929593222866049}
-  - {fileID: 4757763176449190527}
-  - {fileID: 8113653181498020973}
-  - {fileID: 5698430388906649844}
-  - {fileID: 9124006188540127324}
-  - {fileID: -4382620223708273366}
-  - {fileID: -6918891976981629031}
-  - {fileID: -5763439174921458814}
-  - {fileID: 1106819299921697321}
-  - {fileID: -152386572415082509}
-  - {fileID: 5143009033217041326}
   - {fileID: 3621671821990721237}
   - {fileID: 3440276056581448949}
   - {fileID: -4070532051094840434}
   - {fileID: 3361320020454995139}
+  - {fileID: -5461831016004016335}
+  - {fileID: -5441562706334784924}
+  - {fileID: -3877999088186078380}
+  - {fileID: -5160623232682704799}
+  - {fileID: -4335965028916810557}
+  - {fileID: -741600808662702134}
+  - {fileID: 4559352836846008923}
+  - {fileID: 2863374382555274343}
+  - {fileID: -8796789577620943102}
+  - {fileID: -3815295413918056802}
+  - {fileID: -2977331620531665290}
+  - {fileID: -5555739663989070161}
+  - {fileID: 2908915124943380164}
+  - {fileID: -4491455053461166804}
+  - {fileID: 1954788546191880883}
+  - {fileID: 9125197735894464982}
   - {fileID: 1605490904505596191}
   - {fileID: -8474214292858496509}
   - {fileID: -9113317713498840319}
@@ -147,23 +153,15 @@ MonoBehaviour:
   - {fileID: -7617824306825078513}
   - {fileID: 9094822837219755467}
   - {fileID: -487306838438292199}
-  - {fileID: 3056835133653815724}
-  - {fileID: -637201799274664353}
-  - {fileID: -4041479108579427649}
-  - {fileID: -2020056849573842262}
-  - {fileID: 836486993055955318}
-  - {fileID: -9004441447375213380}
-  - {fileID: -1432654869977338513}
-  - {fileID: 3697187794583257605}
   - {fileID: -9209540354628093441}
   m_renderMode: 1
-  m_latencyOptimization: 1
+  m_latencyOptimization: 0
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
   m_depthSubmissionMode: 1
   m_spacewarpMotionVectorTextureFormat: 0
-  m_optimizeBufferDiscards: 0
+  m_optimizeBufferDiscards: 1
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
 --- !u!114 &-8796789577620943102
@@ -179,7 +177,6 @@ MonoBehaviour:
   m_Name: ARPlaneFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Planes'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-plane
@@ -425,7 +422,6 @@ MonoBehaviour:
   m_Name: ColocationDiscoveryFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Colocation Discovery'
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.meta-colocation-discovery
@@ -466,7 +462,6 @@ MonoBehaviour:
   m_Name: MetaXREyeTrackedFoveationFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Meta XR Eye Tracked Foveation
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.eyetrackedfoveation
@@ -528,7 +523,6 @@ MonoBehaviour:
   m_Name: ARAnchorFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Anchors'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-anchor
@@ -550,7 +544,6 @@ MonoBehaviour:
   m_Name: BoundaryVisibilityFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Boundary Visibility'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.meta-boundary-visibility
@@ -559,7 +552,6 @@ MonoBehaviour:
   priority: 0
   required: 0
   m_SuppressVisibility: 0
-  <currentVisibility>k__BackingField: 0
 --- !u!114 &-5160623232682704799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,7 +565,6 @@ MonoBehaviour:
   m_Name: ARCameraFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Camera (Passthrough)'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-camera
@@ -594,6 +585,7 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
+  - {fileID: 7798187240624238957}
   - {fileID: -8309768955030033493}
   - {fileID: -5462084291670656874}
   - {fileID: 5436774378328775176}
@@ -604,18 +596,24 @@ MonoBehaviour:
   - {fileID: -3562225452548528976}
   - {fileID: -3167067663920775138}
   - {fileID: 2403046969320027993}
-  - {fileID: -601482964857046599}
-  - {fileID: 4590253635348092489}
-  - {fileID: 8013562766573146501}
-  - {fileID: 1574515548540077268}
-  - {fileID: -3328023353924075312}
-  - {fileID: 8120718633063151147}
-  - {fileID: 6222220896238738012}
-  - {fileID: 8301378459333162807}
-  - {fileID: 598887364127612332}
   - {fileID: 4467135886553297393}
   - {fileID: 4456167077053169875}
   - {fileID: -4603631246908367755}
+  - {fileID: 3069572371546562982}
+  - {fileID: -4405181978002240951}
+  - {fileID: 2354592684317342404}
+  - {fileID: 1881444475797586375}
+  - {fileID: -6056217423152423126}
+  - {fileID: -1949386968533234905}
+  - {fileID: 3451211437095002268}
+  - {fileID: -2210900401814456953}
+  - {fileID: -437756101686552810}
+  - {fileID: -3852430911863235403}
+  - {fileID: -2596223991106611002}
+  - {fileID: 6129648783515626339}
+  - {fileID: -2875574508983048207}
+  - {fileID: 8798315407157637375}
+  - {fileID: -1609967832228540825}
   - {fileID: -9079964131350213457}
   - {fileID: 1019814762537445349}
   - {fileID: -6532865950825357435}
@@ -624,13 +622,6 @@ MonoBehaviour:
   - {fileID: 3766734360685342472}
   - {fileID: 606089155918344140}
   - {fileID: 8749243143082402835}
-  - {fileID: 5444010112302796091}
-  - {fileID: -4708895567836011217}
-  - {fileID: -4793953060257951911}
-  - {fileID: 6861315753264834256}
-  - {fileID: -7469333989428065645}
-  - {fileID: 1255279077171436641}
-  - {fileID: 6063725464636301798}
   - {fileID: -6946657095031542391}
   m_renderMode: 1
   m_latencyOptimization: 0
@@ -755,7 +746,6 @@ MonoBehaviour:
   m_Name: MetaXRFoveationFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Meta XR Foveation
   version: 1.0.0
   featureIdInternal: com.meta.openxr.feature.foveation
@@ -776,7 +766,6 @@ MonoBehaviour:
   m_Name: BoundaryVisibilityFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Boundary Visibility'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.meta-boundary-visibility
@@ -785,7 +774,6 @@ MonoBehaviour:
   priority: 0
   required: 0
   m_SuppressVisibility: 0
-  <currentVisibility>k__BackingField: 0
 --- !u!114 &-4382620223708273366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -819,7 +807,6 @@ MonoBehaviour:
   m_Name: ColocationDiscoveryFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Colocation Discovery'
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.meta-colocation-discovery
@@ -839,7 +826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
   m_Name: MetaQuestTouchPlusControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -880,7 +867,6 @@ MonoBehaviour:
   m_Name: ARBoundingBoxFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Bounding Boxes'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-bounding-boxes
@@ -902,7 +888,6 @@ MonoBehaviour:
   m_Name: ARRaycastFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Raycasts'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-raycast
@@ -923,7 +908,6 @@ MonoBehaviour:
   m_Name: ARRaycastFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Raycasts'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-raycast
@@ -1004,7 +988,6 @@ MonoBehaviour:
   m_Name: ARSessionFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Session'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-session
@@ -1025,7 +1008,6 @@ MonoBehaviour:
   m_Name: MetaXRFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Meta XR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
@@ -1072,7 +1054,6 @@ MonoBehaviour:
   m_Name: ARSessionFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Session'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-session
@@ -1093,7 +1074,6 @@ MonoBehaviour:
   m_Name: AROcclusionFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Occlusion'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-occlusion
@@ -1135,7 +1115,6 @@ MonoBehaviour:
   m_Name: DisplayUtilitiesFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Display Utilities'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.meta-display-utilities
@@ -1156,7 +1135,6 @@ MonoBehaviour:
   m_Name: MetaXRSubsampledLayout Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Meta XR Subsampled Layout
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.subsampledLayout
@@ -1197,7 +1175,6 @@ MonoBehaviour:
   m_Name: DisplayUtilitiesFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Display Utilities'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.meta-display-utilities
@@ -1331,7 +1308,6 @@ MonoBehaviour:
   m_Name: ARPlaneFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Planes'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-plane
@@ -1377,7 +1353,6 @@ MonoBehaviour:
   m_Name: OpenXRLifeCycleFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 
   version: 0.1.0
   featureIdInternal: MetaOpenXR-OpenXRLifeCycle
@@ -1623,7 +1598,6 @@ MonoBehaviour:
   m_Name: ARCameraFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Camera (Passthrough)'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-camera
@@ -1644,7 +1618,6 @@ MonoBehaviour:
   m_Name: MetaXRSpaceWarp Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Meta XR Space Warp
   version: 1.0.0
   featureIdInternal: com.meta.openxr.feature.spacewarp
@@ -1665,7 +1638,6 @@ MonoBehaviour:
   m_Name: ARBoundingBoxFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Bounding Boxes'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-bounding-boxes
@@ -1707,7 +1679,6 @@ MonoBehaviour:
   m_Name: AROcclusionFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Occlusion'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-occlusion
@@ -1729,7 +1700,6 @@ MonoBehaviour:
   m_Name: MetaXRFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Meta XR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
@@ -1796,7 +1766,6 @@ MonoBehaviour:
   m_Name: ARAnchorFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Anchors'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-anchor
@@ -1817,7 +1786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
   m_Name: MetaQuestTouchProControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Pro Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestpro
@@ -1837,7 +1806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f647cc0545697264a9878224faada6d5, type: 3}
   m_Name: MetaQuestFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.metaquest
@@ -1883,7 +1852,6 @@ MonoBehaviour:
   m_Name: ARMeshFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Meshing'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-mesh
@@ -2069,7 +2037,6 @@ MonoBehaviour:
   m_Name: ARMeshFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: 'Meta Quest: Meshing'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-mesh
@@ -2264,7 +2231,6 @@ MonoBehaviour:
   m_Name: MetaXREyeTrackedFoveationFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Meta XR Eye Tracked Foveation
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.eyetrackedfoveation
@@ -2368,7 +2334,6 @@ MonoBehaviour:
   m_Name: OpenXRLifeCycleFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: 
   version: 0.1.0
   featureIdInternal: MetaOpenXR-OpenXRLifeCycle
@@ -2489,7 +2454,6 @@ MonoBehaviour:
   m_Name: MetaXRFoveationFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Meta XR Foveation
   version: 1.0.0
   featureIdInternal: com.meta.openxr.feature.foveation
@@ -2557,8 +2521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4710975c7840e7d499bbb3757c22b0a5, type: 3}
   m_Name: MetaXRSubsampledLayout Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
-  <failedInitialization>k__BackingField: 0
+  m_enabled: 0
   nameUi: Meta XR Subsampled Layout
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.subsampledLayout

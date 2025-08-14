@@ -15,8 +15,7 @@ MonoBehaviour:
   boolProperties:
     keys:
     - Meta.XR.SDK.UsageSettings.UsesProjectSetupTool
-    - Meta.XR.SDK.UsageSettings.UsesBuildingBlocks
-    values: 0101
+    values: 01
   intProperties:
     keys: []
     values: 
