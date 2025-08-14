@@ -16,7 +16,7 @@
       }
     },
     "com.meshmap.sdk.bb": {
-      "version": "file:mmsdk-buildingblocks-upm.tgz",
+      "version": "file:com.meshmap.sdk.bb.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -26,7 +26,7 @@
       }
     },
     "com.meshmap.sdk.core": {
-      "version": "file:mmsdk-upm.tgz",
+      "version": "file:com.meshmap.sdk.core.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -38,7 +38,7 @@
       }
     },
     "com.meshmap.sdk.magicleap2": {
-      "version": "file:mmsdk-magicleap2-upm.tgz",
+      "version": "file:com.meshmap.sdk.magicleap2.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -52,19 +52,22 @@
       }
     },
     "com.meshmap.sdk.xr": {
-      "version": "file:mmsdk-xr-upm.tgz",
+      "version": "file:com.meshmap.sdk.xr.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
+        "jp.hadashikick.vcontainer": "1.16.8",
         "com.unity.xr.management": "4.5.1",
         "com.unity.xr.interaction.toolkit": "3.0.8",
         "com.unity.xr.hands": "1.5.1",
+        "com.unity.xr.openxr": "1.15.0",
+        "com.unity.xr.compositionlayers": "2.0.0",
         "com.xreal.xr": "3.0.0",
         "com.unity.xr.meta-openxr": "2.2.0",
-        "com.magicleap.unitysdk": "2.6.0-pre.R15-meshmap",
-        "jp.keijiro.apriltag.meshmap": "1.0.2-meshmap",
+        "com.meta.xr.sdk.core": "74.0.0",
         "com.meta.xr.mrutilitykit": "74.0.0",
-        "com.meta.xr.sdk.core": "74.0.0"
+        "com.magicleap.unitysdk": "2.6.0-pre.R15-meshmap",
+        "jp.keijiro.apriltag.meshmap": "1.0.2-meshmap"
       }
     },
     "com.meta.xr.mrutilitykit": {
