@@ -1,6 +1,11 @@
-# LocationBasedARSample
+# Location-based AR sample project for Unity 6
 
 An AR sample project that demonstrates how to position objects around a map and localize on site with fiducial marker tracking.
+
+> [!WARNING]
+> The first time you open this Unity project on your computer, you may get two popups:<br>
+>  1. An error saying that a package (e.g., XREAL) experienced a problem. Click **Continue**. Our `UPMWrapper` feature will resolve the issue once the project is open.<br>
+>  2. A notification about Meta OVR Settings having changed and Unity Editor needing to restart. Click **Restart** and the project will work when Unity opens again.
 
 ## Device Support
 
