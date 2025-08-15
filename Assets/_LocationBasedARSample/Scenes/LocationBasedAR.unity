@@ -1603,7 +1603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 677382873}
   - component: {fileID: 677382875}
-  - component: {fileID: 677382874}
+  - component: {fileID: 677382876}
   m_Layer: 0
   m_Name: MenuButton_Toggle
   m_TagString: Untagged
@@ -1626,22 +1626,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1321856426}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &677382874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 677382872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13fe75c8502d471409ce91c1da896085, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _hintObjects:
-  - {fileID: 1069025675}
-  - {fileID: 300989567}
-  - {fileID: 675584088}
 --- !u!114 &677382875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1671,6 +1655,35 @@ MonoBehaviour:
   _panels:
   - {fileID: 735531351}
   - {fileID: 735531354}
+--- !u!114 &677382876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677382872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06fd017cbb169a4dadb30f3401c73f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hintObjects:
+  - {fileID: 1069025675}
+  - {fileID: 300989567}
+  - {fileID: 675584088}
+  _throwActionProperty:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Throw Action Property
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 774ca459-af5e-4606-9bf2-3562b5bab0aa
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 2473536702234959757, guid: bb4daeceea261404d9e9069323220d1b, type: 3}
+  _visible: 1
 --- !u!1 &706186515
 GameObject:
   m_ObjectHideFlags: 0
