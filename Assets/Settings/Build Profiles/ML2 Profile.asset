@@ -20,9 +20,9 @@ MonoBehaviour:
     rid: 2462990960468426814
   m_OverrideGlobalSceneList: 1
   m_Scenes:
-  - m_enabled: 1
-    m_path: Assets/_LocationBasedARSample/Scenes/LocationBasedAR_ML2.unity
   - m_enabled: 0
+    m_path: Assets/_LocationBasedARSample/Scenes/LocationBasedAR_ML2.unity
+  - m_enabled: 1
     m_path: Assets/_LocationBasedARSample/Scenes/LocationBasedAR.unity
   m_ScriptingDefines:
   - MAGICLEAP
@@ -172,8 +172,14 @@ MonoBehaviour:
     - line: '|   loadStoreDebugModeEnabled: 0'
     - line: '|   visionOSBundleVersion: 1.0'
     - line: '|   tvOSBundleVersion: 1.0'
-    - line: '|   bundleVersion: 0.0.1'
-    - line: '|   preloadedAssets: []'
+    - line: '|   bundleVersion: 0.0.2'
+    - line: '|   preloadedAssets:'
+    - line: '|   - {fileID: -5656821886476092790, guid: 965f4ec1f5e746c43ada3c81644a4e2b,
+        type: 2}'
+    - line: '|   - {fileID: -8835437352903962222, guid: d90a4682e7cedfc46b480010a65e8d5b,
+        type: 2}'
+    - line: '|   - {fileID: 11400000, guid: 71fce90943398e241bfe3944e0242ff3, type:
+        2}'
     - line: '|   metroInputSource: 0'
     - line: '|   wsaTransparentSwapchain: 0'
     - line: '|   m_HolographicPauseOnTrackingLoss: 1'

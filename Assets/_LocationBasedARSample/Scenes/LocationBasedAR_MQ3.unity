@@ -732,22 +732,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8033576761986626860, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: _distance
+      value: 0.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033576761986626860, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: _mainCamera
+      value: 
+      objectReference: {fileID: 1299161846}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7113512323865297785, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
       insertIndex: 0
       addedObject: {fileID: 2111107527}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5555871399092426378, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 575031203}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
---- !u!1 &575031197 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5555871399092426378, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-  m_PrefabInstance: {fileID: 575031196}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &575031198 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4667517767608995539, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
@@ -773,22 +773,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7113512323865297785, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
   m_PrefabInstance: {fileID: 575031196}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &575031203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575031197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06e4edcc527c7fb418035978f8a0c1e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentReference:
-    TypeName: 
-  autoRun: 1
-  autoInjectGameObjects: []
 --- !u!1 &675584088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,6 +1361,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 294422636228758369, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 946677107185084059, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1421,6 +1409,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MQ3 XR Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 5204982158991325595, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831198831728248919, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092947734233286940, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 966376244569009456, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
     m_RemovedGameObjects: []
@@ -1441,6 +1441,11 @@ Camera:
 --- !u!4 &1299161845 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 946677107185084059, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
+  m_PrefabInstance: {fileID: 1299161843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1299161846 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1089699608644738745, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
   m_PrefabInstance: {fileID: 1299161843}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1368161862
