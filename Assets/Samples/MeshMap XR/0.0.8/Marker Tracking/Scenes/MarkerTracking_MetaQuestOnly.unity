@@ -438,11 +438,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4594891211121564321, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
       propertyPath: m_Name
-      value: Cross-platform XR Rig
+      value: MQ3 XR Rig
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1897846622303501030, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 946677107185084059, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1141258234}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
 --- !u!4 &318507297 stripped
@@ -453,6 +457,11 @@ Transform:
 --- !u!20 &318507298 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 1089699608644738748, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
+  m_PrefabInstance: {fileID: 318507296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &318507299 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 946677107185084059, guid: 94f62718c8a946540be85aa593f85f51, type: 3}
   m_PrefabInstance: {fileID: 318507296}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &324750112
@@ -1961,6 +1970,68 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &1141258233
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 318507299}
+    m_Modifications:
+    - target: {fileID: 6523958020863193170, guid: fe27cd332587f384e923b61e93328282, type: 3}
+      propertyPath: m_Name
+      value: METAQUEST
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897933346422820536, guid: fe27cd332587f384e923b61e93328282, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897933346422820536, guid: fe27cd332587f384e923b61e93328282, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897933346422820536, guid: fe27cd332587f384e923b61e93328282, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897933346422820536, guid: fe27cd332587f384e923b61e93328282, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897933346422820536, guid: fe27cd332587f384e923b61e93328282, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897933346422820536, guid: fe27cd332587f384e923b61e93328282, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897933346422820536, guid: fe27cd332587f384e923b61e93328282, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897933346422820536, guid: fe27cd332587f384e923b61e93328282, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897933346422820536, guid: fe27cd332587f384e923b61e93328282, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897933346422820536, guid: fe27cd332587f384e923b61e93328282, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe27cd332587f384e923b61e93328282, type: 3}
+--- !u!4 &1141258234 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6897933346422820536, guid: fe27cd332587f384e923b61e93328282, type: 3}
+  m_PrefabInstance: {fileID: 1141258233}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1160463186
 GameObject:
   m_ObjectHideFlags: 0
@@ -3152,53 +3223,109 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 318507298}
     - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerAnchorList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerAnchorList.Array.data[0].Id
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerAnchorList.Array.data[1].Id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerAnchorList.Array.data[2].Id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerAnchorList.Array.data[3].Id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerAnchorList.Array.data[4].Id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerAnchorList.Array.data[5].Id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[0].Id
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[1].Id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[2].Id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[3].Id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[4].Id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[5].Id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
       propertyPath: MarkerAnchorList.Array.data[0].Anchor
-      value: 
-      objectReference: {fileID: 2065275954}
-    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      propertyPath: MarkerAnchorList.Array.data[1].Anchor
-      value: 
-      objectReference: {fileID: 484751462}
-    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      propertyPath: MarkerAnchorList.Array.data[2].Anchor
-      value: 
-      objectReference: {fileID: 1348080418}
-    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      propertyPath: MarkerAnchorList.Array.data[3].Anchor
-      value: 
-      objectReference: {fileID: 327135836}
-    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      propertyPath: MarkerAnchorList.Array.data[4].Anchor
-      value: 
-      objectReference: {fileID: 327135836}
-    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      propertyPath: MarkerAnchorList.Array.data[5].Anchor
-      value: 
-      objectReference: {fileID: 327135836}
-    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      propertyPath: MarkerContentList.Array.data[0].Content
       value: 
       objectReference: {fileID: 409451241}
     - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      propertyPath: MarkerContentList.Array.data[1].Content
+      propertyPath: MarkerAnchorList.Array.data[1].Anchor
       value: 
       objectReference: {fileID: 1529394445}
     - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      propertyPath: MarkerContentList.Array.data[2].Content
+      propertyPath: MarkerAnchorList.Array.data[2].Anchor
       value: 
       objectReference: {fileID: 341868388}
     - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      propertyPath: MarkerContentList.Array.data[3].Content
+      propertyPath: MarkerAnchorList.Array.data[3].Anchor
       value: 
       objectReference: {fileID: 1241530838}
     - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      propertyPath: MarkerContentList.Array.data[4].Content
+      propertyPath: MarkerAnchorList.Array.data[4].Anchor
       value: 
       objectReference: {fileID: 528873745}
     - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
-      propertyPath: MarkerContentList.Array.data[5].Content
+      propertyPath: MarkerAnchorList.Array.data[5].Anchor
       value: 
       objectReference: {fileID: 1654323068}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[0].Content
+      value: 
+      objectReference: {fileID: 2065275954}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[1].Content
+      value: 
+      objectReference: {fileID: 484751462}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[2].Content
+      value: 
+      objectReference: {fileID: 1348080418}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[3].Content
+      value: 
+      objectReference: {fileID: 327135836}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[4].Content
+      value: 
+      objectReference: {fileID: 327135836}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[5].Content
+      value: 
+      objectReference: {fileID: 327135836}
     - target: {fileID: 5555871399092426378, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
       propertyPath: m_Name
       value: Marker Tracker
@@ -3248,7 +3375,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 318507297}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1174212204936178354, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}

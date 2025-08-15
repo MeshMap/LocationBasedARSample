@@ -1497,6 +1497,30 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerAnchorList.Array.data[0].Id
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerAnchorList.Array.data[1].Id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerAnchorList.Array.data[2].Id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[0].Id
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[1].Id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
+      propertyPath: MarkerContentList.Array.data[2].Id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270419391192919892, guid: 16d15f64168e6bc4aae7a8f2454bb606, type: 3}
       propertyPath: MarkerAnchorList.Array.data[0].Anchor
       value: 
       objectReference: {fileID: 1684387454}

@@ -5574,32 +5574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff6aeb7c7a4a79a4ba74e319c21d361a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MarkerAnchorList:
-  - Id: 0
-    Anchor: {fileID: 0}
-  - Id: 1
-    Anchor: {fileID: 0}
-  - Id: 2
-    Anchor: {fileID: 0}
-  - Id: 3
-    Anchor: {fileID: 0}
-  - Id: 4
-    Anchor: {fileID: 0}
-  - Id: 5
-    Anchor: {fileID: 0}
-  MarkerContentList:
-  - Id: 0
-    Content: {fileID: 0}
-  - Id: 1
-    Content: {fileID: 0}
-  - Id: 2
-    Content: {fileID: 0}
-  - Id: 3
-    Content: {fileID: 0}
-  - Id: 4
-    Content: {fileID: 0}
-  - Id: 5
-    Content: {fileID: 0}
+  MarkerAnchorList: []
+  MarkerContentList: []
   _hideContentUntilLocalizedOnce: 1
   _markerSize: 0.17
   _estimateSize: 0
