@@ -22,6 +22,9 @@ MonoBehaviour:
   m_Scenes: []
   m_ScriptingDefines:
   - XREAL
+  - USE_INPUT_SYSTEM_POSE_CONTROL
+  - USE_STICK_CONTROL_THUMBSTICKS
+  - XR_HANDS_1_1_OR_NEWER
   m_PlayerSettingsYaml:
     m_Settings:
     - line: '| PlayerSettings:'

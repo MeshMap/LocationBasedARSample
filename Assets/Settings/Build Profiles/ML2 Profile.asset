@@ -30,6 +30,7 @@ MonoBehaviour:
   - USE_INPUT_SYSTEM_POSE_CONTROL
   - USE_STICK_CONTROL_THUMBSTICKS
   - ANDROID_X86_64
+  - XR_HANDS_1_1_OR_NEWER
   m_PlayerSettingsYaml:
     m_Settings:
     - line: '| PlayerSettings:'
@@ -173,7 +174,13 @@ MonoBehaviour:
     - line: '|   visionOSBundleVersion: 1.0'
     - line: '|   tvOSBundleVersion: 1.0'
     - line: '|   bundleVersion: 0.0.3'
-    - line: '|   preloadedAssets: []'
+    - line: '|   preloadedAssets:'
+    - line: '|   - {fileID: -5656821886476092790, guid: 965f4ec1f5e746c43ada3c81644a4e2b,
+        type: 2}'
+    - line: '|   - {fileID: -8835437352903962222, guid: d90a4682e7cedfc46b480010a65e8d5b,
+        type: 2}'
+    - line: '|   - {fileID: 11400000, guid: 71fce90943398e241bfe3944e0242ff3, type:
+        2}'
     - line: '|   metroInputSource: 0'
     - line: '|   wsaTransparentSwapchain: 0'
     - line: '|   m_HolographicPauseOnTrackingLoss: 1'
@@ -857,7 +864,7 @@ MonoBehaviour:
     - line: '|   webGLCloseOnQuit: 0'
     - line: '|   webWasm2023: 0'
     - line: '|   scriptingDefineSymbols:'
-    - line: '|     Android: MAGICLEAP;USE_ML_OPENXR;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;ANDROID_X86_64'
+    - line: '|     Android: MAGICLEAP;USE_ML_OPENXR;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;ANDROID_X86_64;XR_HANDS_1_1_OR_NEWER'
     - line: '|   additionalCompilerArguments: {}'
     - line: '|   platformArchitecture: {}'
     - line: '|   scriptingBackend:'

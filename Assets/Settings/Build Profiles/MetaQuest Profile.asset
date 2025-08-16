@@ -29,6 +29,7 @@ MonoBehaviour:
   - USE_INPUT_SYSTEM_POSE_CONTROL
   - USE_STICK_CONTROL_THUMBSTICKS
   - OPEN_XR_META_2_1_OR_NEWER
+  - XR_HANDS_1_1_OR_NEWER
   m_PlayerSettingsYaml:
     m_Settings:
     - line: '| PlayerSettings:'
