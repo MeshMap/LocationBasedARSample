@@ -21,4 +21,4 @@ Magic Leap 2 ✅ | Meta Quest 3 ✅ | XREAL Air 2 Ultra (in development)
 
 Clone the repository and open the project using [Unity Hub](https://unity.com/unity-hub).
 
-Follow the [documentation](https://app.gitbook.com/o/LbOaY5P3ezBQWjznBAEw/s/WEOieFcrCdoaTX1LuCOI/unity-sdk/overview) and [device guides](https://app.gitbook.com/o/LbOaY5P3ezBQWjznBAEw/s/WEOieFcrCdoaTX1LuCOI/unity-sdk/xr/cross-platform-management) to configure settings, permissions, and installation of the app to your target device.
+Follow the [documentation](https://docs.meshmap.com/unity-sdk/overview) and [device guides](https://docs.meshmap.com/unity-sdk/xr/cross-platform-management) to configure settings, permissions, and installation of the app to your target device.
