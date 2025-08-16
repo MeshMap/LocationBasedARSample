@@ -19,7 +19,9 @@ MonoBehaviour:
   m_PlatformBuildProfile:
     rid: 2462990960468426816
   m_OverrideGlobalSceneList: 1
-  m_Scenes: []
+  m_Scenes:
+  - m_enabled: 1
+    m_path: Assets/Samples/MeshMap XR/0.0.10/Marker Tracking/Scenes/MarkerTracking.unity
   m_ScriptingDefines:
   - XREAL
   - USE_INPUT_SYSTEM_POSE_CONTROL
@@ -852,7 +854,7 @@ MonoBehaviour:
     - line: '|   webGLCloseOnQuit: 0'
     - line: '|   webWasm2023: 0'
     - line: '|   scriptingDefineSymbols:'
-    - line: '|     Android: XREAL;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS'
+    - line: '|     Android: XREAL;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;XR_HANDS_1_1_OR_NEWER'
     - line: '|   additionalCompilerArguments: {}'
     - line: '|   platformArchitecture: {}'
     - line: '|   scriptingBackend:'
