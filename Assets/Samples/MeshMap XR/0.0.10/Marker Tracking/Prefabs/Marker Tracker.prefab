@@ -5713,6 +5713,10 @@ MonoBehaviour:
   MarkerAnchorList: []
   MarkerContentList: []
   _hideContentUntilLocalizedOnce: 1
+  _markerDetectorProfile: 2
+  _markerType: 1
+  _aprilTagType: 3
+  _arucoType: 12
   _markerSize: 0.17
   _estimateSize: 0
   _markerEncodedSubstring: 
