@@ -76,3 +76,5 @@ crashlytics-build.properties
 *.sln
 *.vsconfig
 .utmp*
+Assets/Resources/ApiKeyConfig.asset
+Assets/Resources/ApiKeyConfig.asset.meta
