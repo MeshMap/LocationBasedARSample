@@ -1,5 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 Packages/com.xreal.xr.tar.gz filter=lfs diff=lfs merge=lfs -text
+Packages/com.meshmap.sdk.bb.tgz filter=lfs merge=lfs -text
 Assets/_LocationBasedARSample/Maps/*.glb filter=lfs merge=lfs -text
 Assets/_LocationBasedARSample/Maps/**/*.glb filter=lfs merge=lfs -text
