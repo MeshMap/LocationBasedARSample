@@ -25,3 +25,9 @@ Magic Leap 2 ✅ | Meta Quest 3 ✅ | XREAL Air 2 Ultra (in development)
 Clone the repository and open the project using [Unity Hub](https://unity.com/unity-hub).
 
 Follow the [documentation](https://docs.meshmap.com/unity-sdk/overview) and [device guides](https://docs.meshmap.com/unity-sdk/xr/cross-platform-management) to configure settings, permissions, and installation of the app to your target device.
+
+Use the "LocationBasedAR" scene for cross-platform development. If you only want to build for a specific device, then use the "_ML2" or "_MQ3" variants.
+
+The "SanturcePark" scene includes the example map for this app. You can put your own scans here too.
+
+Make sure to use the correct build profile for your device and check the scene(s) you want to include in your app.
