@@ -34,7 +34,11 @@ ExportedObj/
 .consulo/
 *.csproj
 *.unityproj
+*.vsconfig
 *.sln
+.idea*
+.DS_Store
+.utmp*
 *.suo
 *.tmp
 *.user
@@ -71,10 +75,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-.idea*
-.DS_Store
-*.sln
-*.vsconfig
-.utmp*
+*[Dd]o[Nn]ot[Ss]hare*
+*[Ss]ecret*
 Assets/Resources/ApiKeyConfig.asset
 Assets/Resources/ApiKeyConfig.asset.meta
