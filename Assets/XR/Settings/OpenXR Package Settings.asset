@@ -97,7 +97,6 @@ MonoBehaviour:
   m_Name: MagicLeapMeshingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Meshing Subsystem
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_mesh_detection
@@ -105,11 +104,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -2
   required: 0
-  <SessionState>k__BackingField: 0
-  currentMode: 0
-  meshBoundsOrigin: {x: 0, y: 0, z: 0}
-  meshBoundsScale: {x: 0, y: 0, z: 0}
-  meshBoundsRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &-8835437352903962222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,6 +125,17 @@ MonoBehaviour:
   - {fileID: 6228667555957854898}
   - {fileID: -4752579832189790195}
   - {fileID: 4341649486219674065}
+  - {fileID: -545929593222866049}
+  - {fileID: 4757763176449190527}
+  - {fileID: 8113653181498020973}
+  - {fileID: 5698430388906649844}
+  - {fileID: 9124006188540127324}
+  - {fileID: -4382620223708273366}
+  - {fileID: -6918891976981629031}
+  - {fileID: -5763439174921458814}
+  - {fileID: 1106819299921697321}
+  - {fileID: -152386572415082509}
+  - {fileID: 5143009033217041326}
   - {fileID: 3621671821990721237}
   - {fileID: 3440276056581448949}
   - {fileID: -4070532051094840434}
@@ -142,6 +147,14 @@ MonoBehaviour:
   - {fileID: -7617824306825078513}
   - {fileID: 9094822837219755467}
   - {fileID: -487306838438292199}
+  - {fileID: 3056835133653815724}
+  - {fileID: -637201799274664353}
+  - {fileID: -4041479108579427649}
+  - {fileID: -2020056849573842262}
+  - {fileID: 836486993055955318}
+  - {fileID: -9004441447375213380}
+  - {fileID: -1432654869977338513}
+  - {fileID: 3697187794583257605}
   - {fileID: -9209540354628093441}
   m_renderMode: 1
   m_latencyOptimization: 0
@@ -271,7 +284,6 @@ MonoBehaviour:
   m_Name: MagicLeapMeshingFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Meshing Subsystem
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_mesh_detection
@@ -279,11 +291,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -2
   required: 0
-  <SessionState>k__BackingField: 0
-  currentMode: 0
-  meshBoundsOrigin: {x: 0, y: 0, z: 0}
-  meshBoundsScale: {x: 0, y: 0, z: 0}
-  meshBoundsRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &-7166921739243866080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,7 +364,6 @@ MonoBehaviour:
   m_Name: MagicLeapSecondaryViewSupportFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Secondary View
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.secondary_view_configuration
@@ -365,8 +371,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
-  secondaryViewActive: 0
 --- !u!114 &-6532865950825357435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,7 +446,6 @@ MonoBehaviour:
   m_Name: MagicLeapSpatialAnchorsFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Spatial Anchor Subsystem
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_spatialanchor
@@ -450,7 +453,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
 --- !u!114 &-5555739663989070161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -602,6 +604,15 @@ MonoBehaviour:
   - {fileID: -3562225452548528976}
   - {fileID: -3167067663920775138}
   - {fileID: 2403046969320027993}
+  - {fileID: -601482964857046599}
+  - {fileID: 4590253635348092489}
+  - {fileID: 8013562766573146501}
+  - {fileID: 1574515548540077268}
+  - {fileID: -3328023353924075312}
+  - {fileID: 8120718633063151147}
+  - {fileID: 6222220896238738012}
+  - {fileID: 8301378459333162807}
+  - {fileID: 598887364127612332}
   - {fileID: 4467135886553297393}
   - {fileID: 4456167077053169875}
   - {fileID: -4603631246908367755}
@@ -613,6 +624,13 @@ MonoBehaviour:
   - {fileID: 3766734360685342472}
   - {fileID: 606089155918344140}
   - {fileID: 8749243143082402835}
+  - {fileID: 5444010112302796091}
+  - {fileID: -4708895567836011217}
+  - {fileID: -4793953060257951911}
+  - {fileID: 6861315753264834256}
+  - {fileID: -7469333989428065645}
+  - {fileID: 1255279077171436641}
+  - {fileID: 6063725464636301798}
   - {fileID: -6946657095031542391}
   m_renderMode: 1
   m_latencyOptimization: 0
@@ -657,7 +675,6 @@ MonoBehaviour:
   m_Name: MagicLeapLightEstimationFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Light Estimation
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_lightestimation
@@ -665,11 +682,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -1
   required: 0
-  <SessionState>k__BackingField: 0
-  lightEstimation: 0
-  lastEstimateQueryTimeNanoSeconds: 0
-  lightEstimationReady: 0
-  <LightEstimationCreated>k__BackingField: 0
 --- !u!114 &-4752579832189790195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,7 +715,6 @@ MonoBehaviour:
   m_Name: MagicLeapFacialExpressionFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Facial Expression
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_facialexpression
@@ -711,9 +722,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -1
   required: 0
-  <SessionState>k__BackingField: 0
-  facialExpressionClient: 0
-  validClientCreated: 0
 --- !u!114 &-4603631246908367755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -791,7 +799,6 @@ MonoBehaviour:
   m_Name: MagicLeapReprojectionFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Reprojection
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_reprojection
@@ -799,10 +806,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
-  reprojectionModes: []
-  enableReprojection: 0
-  shouldAppendPlaneInfo: 0
 --- !u!114 &-4335965028916810557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -857,7 +860,6 @@ MonoBehaviour:
   m_Name: MagicLeapLightEstimationFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Light Estimation
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_lightestimation
@@ -865,11 +867,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -1
   required: 0
-  <SessionState>k__BackingField: 0
-  lightEstimation: 0
-  lastEstimateQueryTimeNanoSeconds: 0
-  lightEstimationReady: 0
-  <LightEstimationCreated>k__BackingField: 0
 --- !u!114 &-3877999088186078380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -967,7 +964,6 @@ MonoBehaviour:
   m_Name: MagicLeapReprojectionFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Reprojection
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_reprojection
@@ -975,10 +971,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
-  reprojectionModes: []
-  enableReprojection: 0
-  shouldAppendPlaneInfo: 0
 --- !u!114 &-3167067663920775138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1123,7 +1115,6 @@ MonoBehaviour:
   m_Name: MagicLeapMarkerUnderstandingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Marker Understanding
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_markerunderstanding
@@ -1131,7 +1122,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -1
   required: 0
-  <SessionState>k__BackingField: 0
 --- !u!114 &-1949386968533234905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1187,7 +1177,6 @@ MonoBehaviour:
   m_Name: MagicLeapPixelSensorFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Pixel Sensor
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_pixel_sensor
@@ -1195,8 +1184,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -2
   required: 0
-  <SessionState>k__BackingField: 0
-  pathsFetched: 0
 --- !u!114 &-741600808662702134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1231,7 +1218,6 @@ MonoBehaviour:
   m_Name: MagicLeapFacialExpressionFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Facial Expression
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_facialexpression
@@ -1239,9 +1225,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -1
   required: 0
-  <SessionState>k__BackingField: 0
-  facialExpressionClient: 0
-  validClientCreated: 0
 --- !u!114 &-601482964857046599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1255,7 +1238,6 @@ MonoBehaviour:
   m_Name: MagicLeapControllerProfile Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Controller Interaction Profile
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.input.ml2controllerprofile
@@ -1276,7 +1258,6 @@ MonoBehaviour:
   m_Name: MagicLeapControllerProfile Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Controller Interaction Profile
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.input.ml2controllerprofile
@@ -1372,7 +1353,6 @@ MonoBehaviour:
   m_Name: MagicLeapFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Support
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2
@@ -1381,12 +1361,9 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
   perceptionSnapshots: 0
   farClipPolicy: 2
   nearClipPolicy: 1
-  sessionState: 0
-  playerLoopRegistered: 0
 --- !u!114 &-89957751243443173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1462,7 +1439,6 @@ MonoBehaviour:
   m_Name: MagicLeapFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Support
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2
@@ -1471,12 +1447,9 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
   perceptionSnapshots: 0
   farClipPolicy: 2
   nearClipPolicy: 1
-  sessionState: 0
-  playerLoopRegistered: 0
 --- !u!114 &606089155918344140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1510,7 +1483,6 @@ MonoBehaviour:
   m_Name: MagicLeapUserCalibrationFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 User Calibration
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_usercalibration
@@ -1518,7 +1490,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -1
   required: 0
-  <SessionState>k__BackingField: 0
 --- !u!114 &1019814762537445349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1552,7 +1523,6 @@ MonoBehaviour:
   m_Name: MagicLeapSpatialAnchorsStorageFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Spatial Anchors Storage
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_spatialanchorstorage
@@ -1560,10 +1530,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
-  anchorsFeature: {fileID: 0}
-  startedSpatialAnchorStorage: 0
-  storageHandle: 0
 --- !u!114 &1214012730434493514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1597,7 +1563,6 @@ MonoBehaviour:
   m_Name: MagicLeapPixelSensorFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Pixel Sensor
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_pixel_sensor
@@ -1605,8 +1570,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -2
   required: 0
-  <SessionState>k__BackingField: 0
-  pathsFetched: 0
 --- !u!114 &1574515548540077268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1620,7 +1583,6 @@ MonoBehaviour:
   m_Name: MagicLeapReferenceSpacesFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Reference Spaces
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.reference_spaces
@@ -1628,7 +1590,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
 --- !u!114 &1605490904505596191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1815,7 +1776,6 @@ MonoBehaviour:
   m_Name: MagicLeapEyeTrackerFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Eye Tracker
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_eyetracker
@@ -1823,8 +1783,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -1
   required: 0
-  <SessionState>k__BackingField: 0
-  eyeTracker: 0
 --- !u!114 &3069572371546562982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1879,7 +1837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f647cc0545697264a9878224faada6d5, type: 3}
   m_Name: MetaQuestFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Meta Quest Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.metaquest
@@ -1967,7 +1925,6 @@ MonoBehaviour:
   m_Name: MagicLeapPlanesFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Planes Subsystem
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_planes
@@ -1975,7 +1932,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -2
   required: 0
-  <SessionState>k__BackingField: 0
 --- !u!114 &3766734360685342472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2135,7 +2091,6 @@ MonoBehaviour:
   m_Name: MagicLeapLocalizationMapFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Localization Maps
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_localizationmap
@@ -2143,8 +2098,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
-  localizationMapSpace: 0
 --- !u!114 &4757763176449190527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2158,7 +2111,6 @@ MonoBehaviour:
   m_Name: MagicLeapLocalizationMapFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Localization Maps
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_localizationmap
@@ -2166,8 +2118,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
-  localizationMapSpace: 0
 --- !u!114 &4935630835118202696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2201,7 +2151,6 @@ MonoBehaviour:
   m_Name: MagicLeapSystemNotificationsFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 System Notification Control
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_systemnotification
@@ -2209,7 +2158,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
 --- !u!114 &5436774378328775176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2256,7 +2204,6 @@ MonoBehaviour:
   m_Name: MagicLeapEyeTrackerFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Eye Tracker
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_eyetracker
@@ -2264,8 +2211,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -1
   required: 0
-  <SessionState>k__BackingField: 0
-  eyeTracker: 0
 --- !u!114 &5698430388906649844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2279,7 +2224,6 @@ MonoBehaviour:
   m_Name: MagicLeapReferenceSpacesFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Reference Spaces
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.reference_spaces
@@ -2287,7 +2231,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
 --- !u!114 &6063725464636301798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2301,7 +2244,6 @@ MonoBehaviour:
   m_Name: MagicLeapPlanesFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Planes Subsystem
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_planes
@@ -2309,7 +2251,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -2
   required: 0
-  <SessionState>k__BackingField: 0
 --- !u!114 &6129648783515626339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2345,7 +2286,6 @@ MonoBehaviour:
   m_Name: MagicLeapSpatialAnchorsFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Spatial Anchor Subsystem
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_spatialanchor
@@ -2353,7 +2293,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
 --- !u!114 &6228667555957854898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2409,7 +2348,6 @@ MonoBehaviour:
   m_Name: MagicLeapMarkerUnderstandingFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Marker Understanding
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_markerunderstanding
@@ -2417,7 +2355,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: -1
   required: 0
-  <SessionState>k__BackingField: 0
 --- !u!114 &7798187240624238957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2452,7 +2389,6 @@ MonoBehaviour:
   m_Name: MagicLeapPhysicalOcclusionFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Physical Occlusion
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_physical_occlusion
@@ -2460,9 +2396,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
-  enabledOcclusionSources: 0
-  <EnableOcclusion>k__BackingField: 0
 --- !u!114 &8113653181498020973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2476,7 +2409,6 @@ MonoBehaviour:
   m_Name: MagicLeapPhysicalOcclusionFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Physical Occlusion
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_physical_occlusion
@@ -2484,9 +2416,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
-  enabledOcclusionSources: 0
-  <EnableOcclusion>k__BackingField: 0
 --- !u!114 &8120718633063151147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2500,7 +2429,6 @@ MonoBehaviour:
   m_Name: MagicLeapSecondaryViewSupportFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Secondary View
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.secondary_view_configuration
@@ -2508,8 +2436,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
-  secondaryViewActive: 0
 --- !u!114 &8301378459333162807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2523,7 +2449,6 @@ MonoBehaviour:
   m_Name: MagicLeapSpatialAnchorsStorageFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Spatial Anchors Storage
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.ml2_spatialanchorstorage
@@ -2531,10 +2456,6 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
-  anchorsFeature: {fileID: 0}
-  startedSpatialAnchorStorage: 0
-  storageHandle: 0
 --- !u!114 &8749243143082402835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2611,7 +2532,6 @@ MonoBehaviour:
   m_Name: MagicLeapRenderingExtensionsFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Magic Leap 2 Rendering Extensions
   version: 1.0.0
   featureIdInternal: com.magicleap.openxr.feature.rendering_extensions
@@ -2619,14 +2539,12 @@ MonoBehaviour:
   company: Magic Leap
   priority: 0
   required: 0
-  <SessionState>k__BackingField: 0
   defaultBlendModeSelection: 2
   FocusDistance: 0
   UseProtectedSurface: 0
   UseVignetteMode: 0
   GlobalDimmerEnabled: 0
   GlobalDimmerValue: 0
-  requestedBlendMode: 2
 --- !u!114 &9125197735894464982
 MonoBehaviour:
   m_ObjectHideFlags: 0
