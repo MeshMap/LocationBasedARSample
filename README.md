@@ -16,7 +16,7 @@ Magic Leap 2 ✅ | Meta Quest 3 ✅ | XREAL Air 2 Ultra (in development)
 
 ## Requirements
 
-- Unity **6000.0.50f1 LTS** or later
+- Unity **6000.0.58f2 LTS** or later
 - Android Build Support
 - Universal Render Pipeline (URP)
 
